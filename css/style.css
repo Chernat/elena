@@ -124,7 +124,6 @@ a {
   margin: 25px auto;
 }
 
-.card h3,
 .card p {
   margin: 10px 0;
 }
@@ -262,6 +261,24 @@ nav li {
 /*header-end*/
 
 /*features*/
+
+.img {
+  width: 39px;
+  height: 35px;
+  margin: auto;
+}
+
+.img.firts {
+  background: url(../img/user-group.png);
+}
+
+.img.second {
+  background: url(../img/heart.png);
+}
+
+.img.third {
+  background: url(../img/headset.png);
+}
 
 .features .card h3,
 .features .card p {
