@@ -100,7 +100,8 @@ a {
 .container {
   max-width: 600px;
   display: block;
-  margin: 25px auto;
+  margin: 0 auto;
+  padding: 25px 0;
 }
 
 /*general-end*/
@@ -150,7 +151,6 @@ h2::after {
 header {
   display: block;
   background: url(../img/header-bg.jpg) no-repeat center top/cover;
-  height: 100vh;
 }
 
 header a {
@@ -160,6 +160,7 @@ header a {
 .header-dark {
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
+  padding: 40px 0;
 }
 
 .header-container {
@@ -168,7 +169,7 @@ header a {
 }
 
 nav {
-  margin: 60px 0;
+  padding: 60px 0;
   text-align: center;
 }
 
@@ -181,7 +182,7 @@ nav li {
 
 .header-button {
   text-align: center;
-  margin: 70px;
+  padding: 55px 0;
 }
 
 .header-button a {
@@ -213,6 +214,10 @@ nav li {
   font-weight: normal;
 }
 
+.header-title {
+  padding: 25px 0;
+}
+
 .header-title p {
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
@@ -223,8 +228,7 @@ nav li {
 }
 
 .header-subtitle {
-  display: flex;
-  margin: 15px 0;
+  text-align: center;
   text-transform: uppercase;
 }
 
